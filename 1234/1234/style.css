@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    font-family: Heebo;
+    /* margin-top: 140px; */
+    justify-content: flex-end;
+
+}
+.menu{
+    display: none;
+    /* margin-bottom: 33px; */
+}
+
+li{
+    margin-right: 33px; 
+
+}
+.nav-link{ 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000;
+}
+.creativ{
+    /* width: 500px; xato */
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+}
+.text1{
+    /* width: 500px; xato */
+    margin-right: 110px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 65px;
+}
+.technologist{
+    display: flex;
+    /* margin-top: 100px; */
+    
+}
+.image{
+    width: 245px;
+    height: 245px;
+}
+.text{
+    font-family: Heebo;
+    /* margin-top: 30px; */
+}
+.down{
+    width: 208px;
+    height: 47px;
+    font-family: Heebo;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #ff6464;
+    padding: 9px 20px;
+    margin-top: 45px;
+    display: block;
+}
+#post{
+    background: #EDF7FA;
+    padding: 0 0 20px 0 ;
+    margin-top: 85px;
+}
+.recent{
+    display: flex;
+    align-items: center;
+}
+.post-heading{
+    font-size: 22px;
+    line-height: 60px;
+    flex-grow: 1;
+}
+.post-link{
+    text-decoration: none;
+}
+.card{
+    display: flex;
+    margin-bottom: 35px;
+}
+.making{
+    font-family: Heebo;
+    /* margin-right: 20px; */
+    background-color: #fff;
+    padding: 24px 21px 3px 23px ;
+    border-radius: 4px
+    
+}
+.design{
+    /* width: 374px; */
+    font-weight: bold;
+    font-size: 26px;
+    /* line-height: 38px;   */
+    font-family: Heebo;
+}
+.feb{
+    margin-right: 55px;
+    font-size: 18px;
+    line-height: 26px;
+}
+.pat{
+    font-size: 18px;
+    line-height: 26px;
+}
+.amet{
+    /* width: 368px; */
+    height: 117px;
+    font-size: 16px;
+    line-height: 23px;
+}
+.featured{
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.des{
+    display: flex;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.image-second{
+    margin-right: 18px;
+}
+.design-second{
+    /* width: 305px; */
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;  
+    color: #21243D;
+}
+.date{
+    width: 42px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    width: 62px;
+    height: 25px;
+    background: #142850;
+    border-radius: 16px;
+    padding: 2px 10px;
+    color: #fff;
+    margin-right: 26px;
+}
+.dash{
+    width: 374px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+    margin-bottom: 17px;
+}
+.text-secont{
+    margin-bottom: 2px;
+}
+hr{
+    /* width: 380px; */
+    border: 1px solid #E0E0E0;
+}
+.desing3{
+    /* width: 337px; */
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+.design4{
+    width: 365px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+.main-sec{
+    margin-bottom: 83px;
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 30px; */
+}
+.social-icon{
+    width: 40px;
+    height: 40px;
+}
+.copy{
+    line-height: 21px;
+    font-family: Heebo;
+    display: flex;
+    justify-content: center;
+
+}
+@media(max-width: 390px){
+    .nav-list{
+        display: none;
+    }
+    .menu{
+      display: block;  
+      float: right;
+      margin: 10px 10px;
+    }
+    .technologist{
+        
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: 0 auto;
+        /* flex-grow: 1; */
+    }
+    main {
+        padding-top: 140px;
+    }
+    .creativ{
+        text-align: center;
+        font-size: 40px;
+        margin-right: 10px;
+    }
+    .text1{
+        text-align: center;
+        margin-right: 10px;
+    }
+    .image{
+        margin-left: 15px;
+    }
+    .down{
+        display: block;
+        /* width: 50%; */
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .recent{
+        width: 80%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .post-heading{
+        font-size: 20px;
+    }
+
+    .card{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto
+        
+    }
+   
+   .design{
+       font-size: 15px;
+   }
+   .feb {
+        text-align: center;
+        margin-right: 3px;
+        font-size: 15px;
+
+   }
+   .pat{
+       font-size: 15px;
+   }
+   .amet{
+       margin-top: 5px;
+       font-size: 13px;
+   }
+   .featured{
+       font-size: 20px;
+       text-align: center;
+   }
+   .des{
+       flex-direction: column;
+   }
+   
+   .design-second{
+       font-size: 20px;
+   }
+   .image-second{
+       display: block;
+       margin: 0 auto;
+   }
+   .design-second{
+       /* margin-right: 15px;  */
+       text-align: center;
+   }
+   .date{
+       width: 80%;
+       margin-left: 90px;
+   }
+   .text-secont{
+       text-align: center;
+       padding: 0, 10px;
+   }
+   .design4{
+       font-size: 20px;
+       text-align: center;
+   }
+ 
+}
+
+    
+ 
